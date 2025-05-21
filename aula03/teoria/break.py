@@ -1,0 +1,8 @@
+#utilizo o break para interromper o laço quando o índice for igual a 5
+
+for i in range (1,11):
+    if i == 8:  #quando indice for = a 8, o loop é completamente interrompido
+        break
+    print(i)
+
+    
